@@ -1,0 +1,4 @@
+vendor/
+node_modules/
+site/css/*.css
+site/js/*.js
