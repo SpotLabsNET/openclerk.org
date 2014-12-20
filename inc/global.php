@@ -6,7 +6,7 @@ require(__DIR__ . "/functions.php");
 // set up config
 Openclerk\Config::merge(array(
   "site_name" => "openclerk.org",
-  "absolute_url" => "http://localhost/openclerk.org/",
+  "absolute_url" => is_localhost() ? "http://localhost/openclerk.org/" : "http://openclerk.org/",
   "display_errors" => is_localhost(),
 ));
 
