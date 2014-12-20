@@ -28,6 +28,22 @@ body {
   }
 }
 
+.copyright {
+  width: 50%;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  font-size: 85%;
+  color: darken($content-color, 20%);
+
+  a {
+    font-weight: normal;
+  }
+
+  .terms {
+    margin-top: 10px;
+  }
+}
+
 a {
   color: #E5D73B;
   text-decoration: none;
