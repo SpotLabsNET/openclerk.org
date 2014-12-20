@@ -1,1 +1,81 @@
-%h1 Openclerk
+.home
+  %h1 Openclerk
+
+  %a.btn.download{:href => "https://github.com/soundasleep/openclerk"} Download
+
+  %p
+    Openclerk is an open-source platform for tracking cryptocurrency addresses, accounts, miners, equities and more.
+
+  .columns
+    .column
+      %h2 For Users
+
+      %ul
+        %li
+          Try free with
+          %a.cryptfolio{:href => "https://cryptfolio.com"} CryptFolio
+        %li
+          %a{:href => url_for("install")} Installing
+          Openclerk
+        %li
+          %a{:href => "https://groups.google.com/forum/#!forum/cryptfolio-announce"} Mailing List
+
+      %h3 Help needed!
+
+      %ul
+        %li
+          %a{:href => "https://github.com/soundasleep/openclerk"} Develop
+        %li
+          %a{:href => "https://code.google.com/p/openclerk/wiki/Donating"} Donate
+        %li
+          %a{:href => "https://code.google.com/p/openclerk/wiki/HelpTranslate"} Translate
+
+    .column
+      %h2 For Developers
+
+      %ul
+        %li
+          Latest release is
+          %b
+            :php
+              echo file_get_contents("http://cryptfolio.com/version?utm_source=openclerk.org")
+        %li
+          %a.github{:href => "https://github.com/soundasleep/openclerk"} GitHub
+        %li
+          %a.redmine{:href => "http://redmine.jevon.org/projects/openclerk"} Issue Tracking
+
+    .column
+      %h2 For Enthusiasts
+
+      %ul
+        %li
+          %a.blog{:href => "http://blog.cryptfolio.com"} CryptFolio Blog
+        %li
+          %a.twitter{:href => "https://twitter.com/cryptfolio"} @cryptfolio
+        %li
+          %a.ohloh{:href => "https://www.openhub.net/p/openclerk"} Ohloh
+        %li
+          .soon.statsvn{:href => "#", :title => "Coming soon"} Development stats
+        %li
+          .soon.statsvn{:href => "#", :title => "Coming soon"} Code stats
+        %li
+          .soon.api{:href => "#", :title => "Coming soon"} API documentation
+
+  %h2 Features
+
+  / eventually this will be generated automatically
+  %ul
+    %li Cryptocurrencies, fiat currencies, and commodities
+    %li Exchange wallets
+    %li Currency exchanges
+    %li Mining pools
+    %li Miner hashrates
+    %li Securities exchanges
+    %li Reports, graphs and technical indicators
+    %li Notifications
+    %li Historical data
+    %li Comprehensive administrator interface
+    %li
+      See the
+      %a{:href => "https://github.com/soundasleep/openclerk/blob/master/README.md"} Openclerk README
+      for more details

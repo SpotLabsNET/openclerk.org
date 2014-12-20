@@ -1,0 +1,98 @@
+.home {
+
+  h1 {
+    background: url('../images/openclerk-gradient.png') top left no-repeat;
+    background-size: 45px;
+    padding-left: 57px;
+  }
+
+  .btn.download {
+    background: #234931;
+    border: thin outset lighten(#234931, 5%);
+    float: right;
+    margin: 0 20px 25px;
+    padding: 10px 25px 12px 25px;
+    border-radius: 5px;
+
+    &:hover {
+      background: darken(#234931, 2%);
+      text-decoration: none;
+    }
+    &:active {
+      border: thin inset lighten(#234931, 5%);
+      padding: 11px 24px 11px 26px;
+    }
+  }
+
+  .columns {
+    clear: both;
+    margin-top: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+
+    .column {
+      vertical-align: top;
+      display: inline-block;
+      width: 30%;
+
+      & + .column {
+        padding-left: 4%;
+      }
+
+      h2 {
+        background: lighten($content-background, 10%);
+        border-top: 0;
+        padding: 15px;
+        margin: 0;
+        border-radius: 5px;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      ul {
+        margin: 10px 20px;
+        padding: 0;
+        line-height: 170%;
+      }
+    }
+  }
+
+  .soon {
+    color: #777;
+    font-weight: normal;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+      color: #999;
+    }
+  }
+
+  .github, .cryptfolio, .blog, .twitter {
+    padding-left: 22px;
+  }
+
+  .github {
+    background: url('../images/GitHub-Mark/GitHub-Mark-Light-32px.png') 3px 4px no-repeat;
+    background-size: 16px 16px;
+  }
+
+  .twitter {
+    background: url('../images/twitter32.png') 3px 4px no-repeat;
+    background-size: 16px 16px;
+  }
+
+  .cryptfolio, .blog {
+    background: url('../images/icon32.png') 3px 4px no-repeat;
+    background-size: 16px 16px;
+  }
+
+  h2 {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid lighten($content-background, 10%);
+  }
+
+}

@@ -1,0 +1,44 @@
+html, body {
+  background: $body-background;
+  color: $body-color;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.content {
+  margin: 20px auto;
+  max-width: 800px;
+
+  border-radius: 20px;
+  border: 1px solid darken($content-background, 1%);
+  background: $content-background;
+  padding: 30px;
+  color: $content-color;
+  text-shadow: 2px 2px 4px #000;
+  line-height: 130%;
+
+  h1 {
+    margin-top: 0;
+    font-weight: 600;
+    line-height: 140%;
+  }
+}
+
+a {
+  color: #E5D73B;
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    color: #FFF221;
+    text-decoration: underline;
+  }
+}
+
+ul {
+  line-height: 170%;
+}
