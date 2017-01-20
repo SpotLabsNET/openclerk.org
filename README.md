@@ -1,6 +1,6 @@
 # openclerk.org
 
-Public website of [openclerk.org](https://openclerk.org).
+Public website of [openclerk.org](http://openclerk.org).
 
 # Installation
 
