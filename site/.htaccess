@@ -12,3 +12,9 @@ ErrorDocument 404 /openclerk.org/404.php
 RewriteRule ^([^\.]+)/([^\.]+).php$   -                   [F]
 
 RewriteRule ^([^\.]+)$                router.php?path=$1  [L,QSA]
+
+# Redirect requests for www to naked domain
+RewriteCond %{HTTP_HOST}   !^openclerk\.org$ [NC]
+RewriteRule ^(.*)$        http://openclerk\.org/$1 [L,R=301]
+
+
